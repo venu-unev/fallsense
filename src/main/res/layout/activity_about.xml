@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@android:color/transparent">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Created for Project 1 of EE 526 (Wearable and Implantable Devices) by Venugopal Shah - 50291126"
+                android:fontFamily="@font/osos"
+                android:textColor="@android:color/white"
+                android:textSize="40sp"
+
+                android:layout_marginTop="10sp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="The following resources were used to make the app:"
+                android:fontFamily="@font/osos"
+                android:textColor="@android:color/white"
+                android:textSize="40sp"
+
+                android:layout_marginTop="70sp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Tutorials Points for a basic overview"
+                android:fontFamily="@font/osos"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+
+                android:layout_marginTop="30sp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="YouTube Channel- KGP Talkie for getting sensor data"
+                android:fontFamily="@font/osos"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+
+                android:layout_marginTop="10sp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Demonuts for retrieving GPS coordinates"
+                android:fontFamily="@font/osos"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+
+                android:layout_marginTop="10sp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="YouTube Channel- EDMT Dev for grid view"
+                android:fontFamily="@font/osos"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+
+                android:layout_marginTop="10sp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Lee W- GitHub was referenced for the fall detector"
+                android:fontFamily="@font/osos"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+
+                android:layout_marginTop="10sp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Stack Overflow was reference for a splash screen implementation using timer"
+                android:fontFamily="@font/osos"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+
+                android:layout_marginTop="10sp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
